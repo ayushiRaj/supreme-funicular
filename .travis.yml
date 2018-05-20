@@ -1,0 +1,7 @@
+
+language: "java"
+group: "stable"
+dist: "trusty"
+os: "linux"
+install: "mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V"
+test: "mvn test"
